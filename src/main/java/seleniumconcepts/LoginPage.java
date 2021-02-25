@@ -13,7 +13,8 @@ public class LoginPage {
 		}else {
 			System.out.println("in correct - title");
 		}
-		br.close();
+		//br.close();
+		br.quitBrowser();
 	}
 
 }
